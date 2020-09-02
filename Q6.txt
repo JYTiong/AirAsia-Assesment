@@ -1,0 +1,2 @@
+Question 6
+The statement is false as the child process shares the same program counter and registers as the parent process.

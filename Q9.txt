@@ -1,0 +1,20 @@
+Question 9
+Overloading allows for the user to use the same name for a function as long as it has a different type of argument(s), while overriding allows the user to change a method's implementation while using the same name and parameters.
+Example:
+Overloading
+int add(int x, int y){
+	return x + y;
+double add(double x, double y);
+	return x + y;
+
+Overriding
+class Animal {
+	public void walk() {
+		System.out.println("Animal is walking");
+	}
+}
+
+class Dove extends Animal {
+	public void walk() {
+		System.out.println("Dove is walking");
+	}

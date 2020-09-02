@@ -1,0 +1,5 @@
+Question 4
+a. The problem with the code is that it is not flexible. For example, if you want to add a penguin, a bird that can swim, the code will not work as swim() in the Bird class is coded to throw an exception when in reality it should work.
+
+b. The solution can be improved by implement a fly(), walk() and swim() interface and call it to the specific animal when needed. 
+For example, Penguin extends bird implements Walk, Swim{}

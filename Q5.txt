@@ -1,0 +1,2 @@
+Question 5
+To detect if a number is power of 2 in O(1) constant time complexity, we can use bitwise AND (&). This is because the bitwise & between the number, n and n-1 will be zero if n is a power of 2. 

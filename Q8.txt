@@ -1,0 +1,2 @@
+Question 8
+False, in a Memory Management Unit (MMU), the virtual address can be smaller than the physical address but not bigger than it. This provides a layer of abstraction.
